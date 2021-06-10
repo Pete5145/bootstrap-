@@ -1,0 +1,43 @@
+
+.navbar-light {
+    background-color: white;
+}
+ #paragraph{
+    color: rgb(202, 192, 192);
+    font-size: 23px;
+    text-align: center;
+    margin-top: 60px;
+}
+h1 {
+    text-align: center;
+    color: rgb(46, 46, 107);
+}
+#paragraph2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+#row {
+    /* background-color: rgb(230, 220, 220); */
+    height: 650px;
+    margin-top: 30px;
+    padding: 25px 80px;
+    
+}
+h3 {
+    font-size: 25px;
+    color:rgb(46, 46, 107);
+}
+#row2 {
+    width: 100%;
+    background-color: rgb(230, 220, 220);
+    padding: 35px 35px;
+}
+h2 {
+    color:rgb(46, 46, 107);
+
+}
