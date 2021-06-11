@@ -60,11 +60,18 @@ button.button {
 .about-top ul li{
     list-style-type: circle;
 }
- 
-/* .white-box{
-    background-color: white;
-    height: 150px;
-    width: 350px;
-    margin-top: 20px;
-    border-radius: 10px;
-} */
+ .box {
+     background-color: white;
+     padding: 20px  40px;
+     border-radius: 15px;
+     height: 200px;
+ }
+.circle{
+    color:white;
+    height: 50px;
+    width: 50px;
+    background-color:rgb(33, 184, 253);
+    border-radius: 50%;
+    padding-left:10px;
+    padding-top: 10px;
+}
