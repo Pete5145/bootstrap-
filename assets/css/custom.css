@@ -58,13 +58,18 @@ button.button {
     padding-top: 14%;
 }
 .about-top ul li{
-    list-style-type: circle;
+    list-style-type: none;
+}
+.about-top ul li::before {
+    content: "◦"; color:rgb(33, 184, 253);
+  display: inline-block; width: 1em;
+  margin-left: -1em
 }
  .box {
      background-color: white;
-     padding: 20px  40px;
      border-radius: 15px;
-     height: 200px;
+     height: 250px;
+     padding: 15px;
  }
 .circle{
     color:white;
@@ -75,3 +80,63 @@ button.button {
     padding-left:10px;
     padding-top: 10px;
 }
+div.white-box{
+     padding: 15px;
+     height: 300px;
+}
+div.white-box div{
+    background-color: white;
+    border-radius: 15px;
+    height: 100%;
+    padding: 20px;
+}
+.contact-top {
+    padding-top: 20%;
+}
+.bottom-line {
+    border-bottom: 2px solid thistle;
+}
+div.info{
+    padding: 15px;
+    height: 190px;
+}
+
+div.info div{
+    background-color: rgb(226, 221, 226);
+    border-radius: 10px;
+    height: 100%;
+    padding: 20px;
+}
+
+.form-container{
+    width: 50%;
+    margin: auto;
+}
+
+textarea.form-control{
+    height: 150px !important;
+    resize: none;
+}
+
+.form-control{
+    background-color: rgb(226, 226, 226);
+    border: none;
+    outline: none !important;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+
